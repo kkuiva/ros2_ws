@@ -67,3 +67,16 @@ git submodule add -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulation
 exit
 . build_ws.sh 
 exit
+source /opt/ros/humble/setup.bash
+ros2 run demo_nodes_cpp talker
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+ros2 run turtlesim turtlesim_node
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+colcon build
+gazebo
+exit
+source /opt/ros/humble/setup.bash
+ros2 run demo_nodes_py listener
+ros2 run turtlesim turtle_teleop_key
+exit
