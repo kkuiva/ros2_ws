@@ -67,3 +67,30 @@ git submodule add -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulation
 exit
 . build_ws.sh 
 exit
+. build_ws.sh 
+ls
+cd src
+ls
+rm -rf turtlebot3_simulations/
+ls
+cd ..
+rm -rf .git/modules/src/turtlebot3_simulations/
+cd
+. build_ws.sh 
+cd ws
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+gazebo
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+gazebo
+. build_ws.sh 
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/ws/src/my_robot_controller/map/map.yaml
+. build_ws.sh 
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/ws/src/my_robot_controller/map/map.yaml
+source install/setup.bash 
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/ws/src/my_robot_controller/map/map.yaml
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_navigation.launch.py
