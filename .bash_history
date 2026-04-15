@@ -80,3 +80,25 @@ source /opt/ros/humble/setup.bash
 ros2 run demo_nodes_py listener
 ros2 run turtlesim turtle_teleop_key
 exit
+colcon build
+cd
+exit
+colcon build
+exit
+. build_ws.sh
+ls
+cd src
+ls
+cd turtlebot3
+ls
+cd ..
+cd .. 
+. build_ws.sh
+ls
+cd src
+rm turtlebot3
+git submodule add -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git src/turtlebot3_simulations
+. build_ws.sh 
+exit
+source /opt/ros/humble/setup.bash
+exit
