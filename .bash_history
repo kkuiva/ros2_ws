@@ -102,3 +102,69 @@ git submodule add -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulation
 exit
 source /opt/ros/humble/setup.bash
 exit
+. build_ws.sh 
+colcon build
+ls
+docker build --no-cache --progress=plain .
+exit
+ls
+. build_ws.sh 
+ln -sf /usr/share/zoneinfo/Europe/Tallinn /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Europe/Tallinn /etc/localtime
+export TZ=Europe/Tallinn
+. build_ws.sh 
+docker exec -it <43236394e193> ls -ld log
+docker exec -it 43236394e193 ls -ld log
+exit
+. build_ws.sh 
+ros2 run turtlebot3_teleop teleop_keyboard 
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+source ~/install/setup.bash
+source ~/.bashrc
+. build_ws.sh 
+ros2 topic list
+ros2 topic echo /cmd_vel
+ros2 launch turtlebot3_bringup rviz2.launch.py
+ros2 run turtlebot3_teleop teleop_keyboard 
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+source install/setup.bash
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 run my_robot_controller mapping

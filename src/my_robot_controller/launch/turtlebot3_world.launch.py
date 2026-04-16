@@ -30,13 +30,13 @@ def generate_launch_description():
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
-    x_pose = LaunchConfiguration('x_pose', default='-2.0') #this is the spawn location of the robot in the simulation, might need to change when add a new world
-    y_pose = LaunchConfiguration('y_pose', default='-0.5')
+    x_pose = LaunchConfiguration('x_pose', default='-1.0') #this is the spawn location of the robot in the simulation, might need to change when add a new world
+    y_pose = LaunchConfiguration('y_pose', default='-2.5')
 
     world = os.path.join( #this is the file used for the map/environment in gazebo
-        get_package_share_directory('turtlebot3_gazebo'),
+        get_package_share_directory('my_robot_controller'),
         'worlds',
-        'turtlebot3_world.world' #need to change this after we make a new world
+        'P1keskkond.world' #need to change this after we make a new world
     )
 
     gzserver_cmd = IncludeLaunchDescription(
