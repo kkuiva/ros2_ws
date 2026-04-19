@@ -1,12 +1,13 @@
-To start the autonomous mapping, you need to open three terminals and run the following commands:
+To start autonomous mapping of a world, you must first specify the world file name and path in src/my_robot_controller/launch/turtlebot3_world.launch.py.
+(Depending on the world, you may also need to adjust the robot's spawn location in the same file)
 
-1. Launch the simulated environment in Gazebo:
-    ros2 launch my_robot_controller turtlebot3_world.launch.py
+After changing the file, you must save the files, build and source the workspace. 
 
-2. Launch the mapping:
-    ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+To run the mapping, you can use the following command in your workspace:
+ros2 launch my_robot_controller mapping.launch.py
 
-3. Run the mapping movement script:
-    ros2 run my_robot_controller mapping
+This will launch Gazebo, which simulates the robot and the world, and Rviz, which displays the mapping process. It will also start the robot movement script, which makes the robot move around in the world by following the wall to its right. 
 
-The robot will try to follow the wall anti-clockwise to go through the entire environment.
+Once the world has been fully mapped, the map can be saved using the following command in another terminal:
+(Before running the command, double check that the directory "~/ws/src/my_robot_controller/map" and the filename "my_map" are correct)
+ros2 run nav2_map_server map_saver_cli -f ~/ws/src/my_robot_controller/map/my_map 

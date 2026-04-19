@@ -168,3 +168,11 @@ ros2 run my_robot_controller mapping
 ros2 run my_robot_controller mapping
 . build_ws.sh 
 ros2 run my_robot_controller mapping
+. build_ws.sh 
+ros2 launch viskerobot mapping.launch.py
+cd src
+ros2 launch viskerobot mapping.launch.py
+. build_ws.sh 
+cd ..
+. build_ws.sh 
+ros2 launch viskerobot mapping.launch.py

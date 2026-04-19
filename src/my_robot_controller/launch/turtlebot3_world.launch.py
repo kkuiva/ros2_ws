@@ -26,17 +26,19 @@ from launch.substitutions import LaunchConfiguration
 
 
 def generate_launch_description():
-    launch_file_dir = os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch') #we use these paths to launch things later, kept unchanged after copying
+    launch_file_dir = os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'launch')
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
-    x_pose = LaunchConfiguration('x_pose', default='-1.0') #this is the spawn location of the robot in the simulation, might need to change when add a new world
+    #this is the spawn location of the robot in the simulation, which might have to be adjusted when using a different world
+    x_pose = LaunchConfiguration('x_pose', default='-1.0') 
     y_pose = LaunchConfiguration('y_pose', default='-2.5')
 
-    world = os.path.join( #this is the file used for the map/environment in gazebo
+    #this specifies the world that will be mapped, must be changed according to the filename and path of the actual world file
+    world = os.path.join( 
         get_package_share_directory('my_robot_controller'),
         'worlds',
-        'P1keskkond.world' #need to change this after we make a new world
+        'P1keskkond.world'
     )
 
     gzserver_cmd = IncludeLaunchDescription(
