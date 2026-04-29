@@ -176,3 +176,5 @@ ros2 launch viskerobot mapping.launch.py
 cd ..
 . build_ws.sh 
 ros2 launch viskerobot mapping.launch.py
+. build_ws.sh 
+exit

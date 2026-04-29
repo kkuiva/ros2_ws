@@ -10,38 +10,38 @@ class MappingNode(Node):
         super().__init__("mapping_node")
         self.get_logger().info("Mapping node started")
 
-        #liikumiskäskude saatja
+        #movement command publisher
         self._pose_publisher = self.create_publisher(Twist, "/cmd_vel", 10)
 
-        #LiDARi mõõtmiste vastuvõtja
+        #LiDAR measurement subscriber
         self._scan_listener = self.create_subscription(LaserScan, "/scan", self.robot_controller, 10)
 
     def robot_controller(self, scan: LaserScan):
         move_command = Twist()
-        n = 20  #muutuja, mis lihtsustab suunavahemike määramist
+        n = 20  #variable to simplify setting measurement ranges
 
-        #määrab, millised LiDARi mõõtmised (suunad) kuuluvad mingisse gruppi (ees, taga, vasakul, paremal)
+        #defines which measurements belong in which sector (front, back, left, right) and gets the minimum measurement in each sector
         self.front = min(scan.ranges[:n-1] + scan.ranges[-n:])
         self.left = min(scan.ranges[90-n:90+n])
         self.back = min(scan.ranges[180-n:180+n])
         self.right = min(scan.ranges[290-n:290+n])
 
-        if self.front < 0.5: #kui ees on takistus
-            if self.right <= 0.7: #ja paremal on sein
+        if self.front < 0.5: #if there is an obstacle ahead
+            if self.right <= 0.7: #and a wall/obstacle on the right
                 move_command.linear.x = 0.05    
-                move_command.angular.z = 0.5    #keerab vasakule
-            else:   #kui paremal ei ole seina
+                move_command.angular.z = 0.5    #turn left
+            else:   #if there is no wall/obstacle on the right
                 move_command.linear.x = 0.05
-                move_command.angular.z = -0.4   #keerab paremale
+                move_command.angular.z = -0.4   #turn right
 
-        elif self.right > 0.35:  #kui paremal ei ole seina
+        elif self.right > 0.35:  #(if there is no obstacle ahead) and the robot isn't close enough to the wall on the right
                 move_command.linear.x = 0.1
-                move_command.angular.z = -0.5   #keerab paremale
+                move_command.angular.z = -0.5   #turn right
 
-        else:   #kui robot on seina ääres ja takistusi ei ole ees
-            move_command.linear.x = 0.3     #liigub otse
+        else:   #(if there is no obstacle ahead and the robot is close enough to the wall on the right)
+            move_command.linear.x = 0.3     #drive straight ahead
 
-        #liikumiskäskude saatmine
+        #sending movement commands to the robot
         self._pose_publisher.publish(move_command)
 
 def main(args=None):
