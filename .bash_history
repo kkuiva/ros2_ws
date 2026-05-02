@@ -178,3 +178,99 @@ cd ..
 ros2 launch viskerobot mapping.launch.py
 . build_ws.sh 
 exit
+. build_ws.sh
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+. build_ws.sh 
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+exit
+source install/setup.bash 
+ros2 topic echo /waypoints
+exit
+source install/setup.bash 
+ros2 launch my_robot_controller navigation.launch.py
+exit
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+exit
+ros2 topic echo /odom
+ros2 topic c list
+ros2 topic list
+exit
+ros2 topic echo /goal_pose
+exit
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+gazebo
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+. build_ws.sh 
+ros2 launch my_robot_controller navigation.launch.py
+exit
