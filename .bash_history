@@ -274,3 +274,9 @@ ros2 launch my_robot_controller navigation.launch.py
 . build_ws.sh 
 ros2 launch my_robot_controller navigation.launch.py
 exit
+gazebo
+exit
+ls
+cd
+ls
+exit

@@ -29,12 +29,12 @@ setup(
     entry_points={
         'console_scripts': [
             'draw_circle = my_robot_controller.draw_circle:main',
-            "test_node = my_robot_controller.my_first_node:main",
-            "pose_sub = my_robot_controller.pose_subscriber:main",
-            "turtle_controller = my_robot_controller.turtle_controller:main",
-            "navigation = my_robot_controller.navigation:main",
-            "mapping = my_robot_controller.mapping:main"
-            "av_nav = my_robot_controller.av_navigation:main",
+            'test_node = my_robot_controller.my_first_node:main',
+            'pose_sub = my_robot_controller.pose_subscriber:main',
+            'turtle_controller = my_robot_controller.turtle_controller:main',
+            'navigation = my_robot_controller.navigation:main',
+            'mapping = my_robot_controller.mapping:main',
+            'aw_nav = my_robot_controller.aw_navigation:main',
         ],
     },
 )

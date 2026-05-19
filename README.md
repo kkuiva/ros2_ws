@@ -1,3 +1,10 @@
+To start the autonomous navigation in autoware, you must launch it with the following command in your workspace:
+
+ros2 run my_robot_controller aw_navigation.launch.py
+
+
+!!! The following parts still work, but you will need to remove the COLCON_IGNORE files from turtlebot3 and turtlebot3_simulations !!!
+
 To start autonomous mapping of a world, you must first specify the world file name and path in src/my_robot_controller/launch/turtlebot3_world.launch.py.
 (Depending on the world, you may also need to adjust the robot's spawn location in the same file)
 
