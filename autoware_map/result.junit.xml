@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<testsuites name="/autoware_map/p4_results_new/scenario_test_runner" failures="60" errors="0" tests="60">
+  <testsuite name="p4_scenario2" failures="60" errors="0" tests="60">
+    <testcase name="p4_scenario2_59">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_9">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_25">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_22">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_30">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_18">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_32">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_3">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_28">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_17">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_26">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_15">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_13">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_7">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_1">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_4">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_16">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_29">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_5">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_36">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_10">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_14">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_33">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_6">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_0">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_38">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_11">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_12">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_24">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_20">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_23">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_8">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_2">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_31">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_45">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_34">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_53">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_35">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_41">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_21">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_39">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_51">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_40">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_44">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_52">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_42">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_43">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_27">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_47">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_48">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_49">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_46">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_56">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_50">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_54">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_37">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[2].Condition[0]): Is any of [ego] colliding with another given entity Npc1?" />
+    </testcase>
+    <testcase name="p4_scenario2_55">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_57">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_19">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+    <testcase name="p4_scenario2_58">
+      <failure type="SimulationFailure" message="CustomCommandAction typed &quot;exitFailure&quot; was triggered by the anonymous Condition (OpenSCENARIO.Storyboard.Story[0].Act[&quot;_EndCondition&quot;].ManeuverGroup[0].Maneuver[0].Event[1].StartTrigger.ConditionGroup[1].Condition[0]): Is any of [ego]'s standstill time = [60.000000000000312638803734444082] greaterThan 60.000000000000000000000000000000?" />
+    </testcase>
+  </testsuite>
+</testsuites>
